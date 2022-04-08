@@ -1,7 +1,28 @@
 ## How to use 
 
 Buka salah satu api client seperti postman,insomnia disini saya menggunakan insomnia 
+Setelah clone  project :.
+```
+Go to the folder application using cd command on your cmd or terminal.
+```
+```
+Run composer install on your cmd or terminal.
+```
+```
+Run php artisan serve.
+```
 
+```
+Buka  api client dan buat HTTP GET Request di Insomnia
+```
+
+
+```
+dan masukan url endpoint nya 
+```
+
+
+>Selamat Mencoba 
 # Filter
 
 untuk url masukan sesuai yang ingin di cari:
