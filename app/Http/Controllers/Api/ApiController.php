@@ -261,6 +261,9 @@ $filter_phone = $request->filter['phone']  ?? 0;
 
         $datas = array_slice( $data['data'], $offset, $limit );
         // dd($datas);
-        return response()->json($datas);
+        $res['success'] = true;
+        $res['msg'] = 'Data di temukan!';
+        $res['data'] = $datas;
+        return response()->json($res);
     }
 }
